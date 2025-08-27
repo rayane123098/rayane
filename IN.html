@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>MC Negão Original</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="sla.css">
+</head>
+
+<body>
+    <header class="p-5">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="https://latinosbrasil.com/wp-content/uploads/2024/12/IMG-20241212-WA0144-960x686.jpg" class="nav-img rounded-circle" width="80" height="80" loading="lazy" alt="Logo MC Negão Original">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#biografia">Biografia</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> 
+                        <i class="bi bi-shadows"></i>
+                    </button>         
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Bem-vindo ao universo de</h1>
+                    <h1 class="display-2 text-warning fw-bolder">MC Negão Original</h1>
+                    <a href="#biografia" class="btn btn-primary btn-lg botao-inicio fw-semibold">Conhecer mais</a>
+                </div>
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/06/34/3b/06343bc1-9786-befa-2743-4d580e1633f3/mzl.upymndpb.jpg/1200x600vf.jpg" alt="MC Negão Original" class="img-fluid img-inicio">
+            </div>
+        </section>
+        <section id="biografia" class="my-5 pt-6 secao-biografia" tabindex="0" aria-label="Seção sobre MC Negão Original">
+            <div class="container d-flex align-items-center">
+                <div class="col-4 d-flex justify-content-center">
+                    <img src="https://fly.metroimg.com/upload/q_85,w_1200/https://uploads.metroimg.com/wp-content/uploads/2025/03/11140927/MC-Negao-Original-Funk-Crime-Igreja-4.jpg" class="rounded-pill" width="273" height="331" loading="lazy" alt="Foto MC Negão Original">
+                </div>
+                <div class="col-5">
+                    <h2>Quem é MC Negão Original?</h2>
+                    <p class="p-2">
+                        MC Negão Original é uma das vozes mais marcantes do funk, trazendo letras autênticas que
+                        retratam a realidade das periferias brasileiras. Seu estilo único mistura batidas envolventes
+                        com mensagens fortes e diretas, conquistando milhares de fãs pelo país.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="https://midias.correiobraziliense.com.br/_midias/jpg/2025/04/02/mc_negao_original-49016844.jpg" class="img-fluid rounded-5" loading="lazy" alt="Show MC Negão Original">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://br.trace.tv/wp-content/uploads/2025/02/mc-negao.png" class="img-fluid rounded-5" loading="lazy" alt="https://latinosbrasil.com/wp-content/uploads/2024/12/Big-1.jpg">
+                    </div>
+                </div>
+                <div class="row mt-4 justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="https://backstagemag.com.br/wp-content/uploads/2025/04/Screenshot_20250416_104354_Drive.jpg" class="img-fluid rounded-5" loading="lazy" alt="MC Negão Original em ensaio fotográfico">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2025/02/12/negao-original-1jicu0up5a1x2.jpg" class="img-fluid rounded-5" loading="lazy" alt="MC Negão Original capa de álbum">
+                    </div>
+                </div>
+             </div>
+        </section>
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
+                    <h2 class="mb-3">Contrate para shows e danças particulares.</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1" placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1" placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4" placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center p-3 fst-italic">
+        <p>Siga o MC Negão Original e a Rayane:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-youtube"></i>
+        <p class="mt-3">Desenvolvido por rayane A melhor. melhor projeto do ano.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="slaoq.js"></script>
+</body>
+</html>
